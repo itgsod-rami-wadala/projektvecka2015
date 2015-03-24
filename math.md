@@ -31,3 +31,5 @@ Efter varje uppgift ska ni *commita* lösningen.
 
 
 Lycka till.
+
+det här är ez kan vi börja programmera nu
