@@ -1,6 +1,6 @@
 require 'colorize'
 
-puts "  år  mån   betalt     belopp kvar".blue
+puts "  år  mån    betalt    belopp kvar".white
 puts "___________________________________".red
 attbetala = 134520
 i = 0
