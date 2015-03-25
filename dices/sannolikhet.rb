@@ -1,7 +1,7 @@
 require 'colorize'
 
-puts "  år  mån   betalt  belopp kvar".blue
-puts "______________________________".red
+puts "  år  mån   betalt     belopp kvar".blue
+puts "___________________________________".red
 attbetala = 134520
 i = 0
 betalt = 0
@@ -25,31 +25,31 @@ while i < 120
         else
           "#{f}".blue
         end} "
-  print "| ".red
+  print "|".red
   print " #{
         if betalt < 10000
-          "#{betalt}  ".red
+          "#{betalt} kr  ".red
         else
           if betalt < 100000
-            "#{betalt} ".magenta
+            "#{betalt} kr ".magenta
           else
-            "#{betalt}".red
+            "#{betalt} kr".red
           end
         end} "
   print "| ".red
   print "#{if (attbetala - betalt) < 1000
-  "#{attbetala - betalt}     ".cyan
+  "#{attbetala - betalt} kr     ".cyan
   else
     if (attbetala - betalt) < 10000
-      "#{attbetala - betalt}  ".blue
+      "#{attbetala - betalt} kr  ".blue
     else
       if (attbetala - betalt) < 100000
-        "#{attbetala - betalt} ".cyan
+        "#{attbetala - betalt} kr ".cyan
       else
-        "#{attbetala - betalt}".blue
+        "#{attbetala - betalt} kr".blue
       end
     end
   end } "
   puts "|".red
 end
-puts "––––––––––––––––––––––––––––––".red
+puts "–––––––––––––––––––––––––––––––––––".red
