@@ -12,7 +12,16 @@ puts "b #{krpermånad*ränta}"
 
 i = 0
 betalt = 0
+f = 0
+d = 0
 while i < 120
   betalt = betalt + 1121
   i = i + 1
+  if f < 12
+    f = f + 1
+  else
+    f = 1
+    d = d + 1
+  end
+  puts "år #{d}, månad #{f} och hur mycket du har betalat #{betalt}"
 end
