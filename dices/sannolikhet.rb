@@ -10,6 +10,7 @@ puts "a #{krpermånad*(år*månader)}"
 
 puts "b #{krpermånad*ränta}"
 
+attbetala = 134520
 i = 0
 betalt = 0
 f = 0
@@ -23,5 +24,5 @@ while i < 120
     f = 1
     d = d + 1
   end
-  puts "år #{d}, månad #{f} och hur mycket du har betalat #{betalt}"
+  puts "år #{d}, månad #{f} och hur mycket du har betalat #{betalt} och du har #{attbetala - betalt} kvar att betala"
 end
