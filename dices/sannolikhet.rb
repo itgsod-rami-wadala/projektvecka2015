@@ -1,3 +1,11 @@
-puts "a #{1121*(10*12)}"
+krpermånad = 1121
 
-puts "b #{1121*0.0685}"
+månader = 12
+
+år = 10
+
+ränta = 0.0658
+
+puts "a #{krpermånad*(år*månader)}"
+
+puts "b #{krpermånad*ränta}"
