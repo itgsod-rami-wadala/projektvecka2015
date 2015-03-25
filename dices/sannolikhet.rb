@@ -1,3 +1,5 @@
+require 'colorize'
+
 krpermånad = 1121
 
 månader = 12
@@ -24,5 +26,5 @@ while i < 120
     f = 1
     d = d + 1
   end
-  puts "år #{d}, månad #{f} och hur mycket du har betalat #{betalt} och du har #{attbetala - betalt} kvar att betala"
+  puts "år #{d}, månad #{f} och hur mycket du har betalat #{betalt} och du har #{attbetala - betalt} kvar att betala".magenta
 end
