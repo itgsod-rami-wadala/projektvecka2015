@@ -9,7 +9,7 @@ ränta = 0.0658
 puts "a #{krpermånad*(år*månader)}"
 
 puts "b #{krpermånad*ränta}"
-
+q=3
 i = 0
 betalt = 0
 f = 0
